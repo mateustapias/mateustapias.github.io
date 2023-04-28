@@ -3,9 +3,48 @@ body p, h1 {
 }
 
 body {
-    background-color:antiquewhite;
+    background-color:white;
 }
 
 ul li {
     font-size: 1em;
+}
+
+.mateus_header {
+    height: 300px;
+    background-color: antiquewhite;
+    border: 3px solid black;
+    padding: 2%;
+}
+
+.mateus_header #foto_mateus {
+    /* border: 3px solid red; */
+    float: left;
+    max-width: 35%;
+    height: 100%;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+.mateus_header p {
+    color: blue;
+    /* text-shadow: 2px 2px white; */
+    font-size: 2.5em;
+    /* border: 2px solid blue; */
+    max-width: 70%;
+    display: inline-block;;
+    position: relative;
+    left: 7.5%;
+    top: 18px;
+}
+
+#teste {
+    border: 6px solid black;
+}
+
+#hero-title {
+    font-size: 3em;
+    text-align: center;
+    color: green;
+    margin-top: 0;
+    margin-bottom: 0;
 }
